@@ -16,7 +16,7 @@
 
 //Assignment 1 - Stars Pattern
 
-// function pattern(n){
+// function pattern1(n){
 //     for (let i = 0; i < 5; i++) {
 //         let str = "";
 //         for (let j = 0; j < 5; j++) {
@@ -26,12 +26,13 @@
 //     }
 // }
 
-// pattern(5);
+// pattern1(5);
+
 
 
 //Assignment 2 - Stars Pattern
 
-// function pattern(n){
+// function pattern2(n){
 //     for (let i = 0; i < n; i++) {
 //         let str = "";
 //        for (let j = i; j >= 0; j--) {
@@ -41,12 +42,12 @@
 //    }
 // }
 
-// pattern(5);
+// pattern2(5);
 
 
 //Assignment 3 - Stars Pattern
 
-// function pattern(n){
+// function pattern3(n){
 //     for (let i = n; i > 0; i--) {
 //         let str = "";
 //         for (let j = 0; j < i; j++) {
@@ -56,12 +57,13 @@
 //     }
 // }
 
-// pattern(5);
+// pattern3(5);
+
 
 
 //Assignment 5 - Stars Pattern
 
-// function pattern(n){
+// function pattern5(n){
 //     for (let i = 0; i < n; i++) {
 //         let str = "";
 //         for (let j = i; j >= 0; j--) {
@@ -78,12 +80,12 @@
 //     }
 // }
 
-// pattern(7);
+// pattern5(5);
 
 
 //Assignment 4 - Stars Pattern 
 
-// function pattern(n){
+// function pattern4a(n){
 //     for (let i = 0; i < n; i++) {
 //         let num = 0;
 //         for (let j = i; j >= 0 ; j--) {
@@ -94,12 +96,12 @@
 //     }
 // }
 
-// pattern(5);
+// pattern4a(5);
 
 
 // Another alternative for Assignment 4 - Stars Pattern
 
-// function pattern(n){
+// function pattern4b(n){
 //     for (let i = 0; i < n; i++) {
 //         let num = 0;
 //         let result = "";
@@ -111,11 +113,13 @@
 //     }
 // }
 
-// pattern(5);
+// pattern4b(5);
+
+
 
 // Assignment 6 - Stars Pattern
 
-// function pattern(n){
+// function pattern6(n){
 //     for (let i = 0; i < n; i++) {
 //         let str = "";
 //         let result = "";
@@ -129,12 +133,13 @@
 //     }
 // }
 
-// pattern(5);
+// pattern6(5);
+
 
 
 // Assignment 7 - Stars Pattern
 
-// function pattern(n){
+// function pattern7(n){
 //     for (let i = 0; i < n; i++) {
 //         let str = "";
 //         let result = "";
@@ -148,27 +153,55 @@
 //     }
 // }
 
-// pattern(5);
+// pattern7(5);
+
 
 
 // Assignment 8 - Stars Pattern
 
-function pattern(n){
-    for (let i = 1; i <= n; i++) {
-        let str = "";
-        let result = "";
-        let rest = "";
-        for (let j = n - i; j > 0; j--) {
-            str += "  ";
-        }
-        for (let k = i; k > 0; k--) {
-            result += "* ";
-        }
-        for (let l = i - 1; l > 0; l--) {
-            rest += "* ";
-        }
-        console.log(str + result + rest);
-    }
-}
+// function pattern8(n){
+//     for (let i = 1; i <= n; i++) {
+//         let str = "";
+//         let result = "";
+//         let rest = "";
+//         for (let j = n - i; j > 0; j--) {
+//             str += "  ";
+//         }
+//         for (let k = i; k > 0; k--) {
+//             result += "* ";
+//         }
+//         for (let l = i - 1; l > 0; l--) {
+//             rest += "* ";
+//         }
+//         console.log(str + result + rest);
+//     }
+// }
 
-pattern(5)
+// pattern8(5)
+
+
+
+// Assignment 9 - Stars Pattern
+
+// function pattern9(n){
+//     for (let i = 0; i < n; i++) {
+//         let str = "";
+//         let result = "";
+//         let rest = "";
+//         for (let j = i - 1; j >= 0; j--) {
+//             str += "  ";        
+//         }
+//         for (let k = (n - 1) - i; k >= 0; k--) {
+//             result += "* ";        
+//         }
+//         for (let l = (n - 1) - i; l > 0; l--) {
+//             rest += "* ";        
+//         }
+//         console.log(str + result + rest);
+//     }
+    
+// }
+
+// pattern9(5);
+
+
