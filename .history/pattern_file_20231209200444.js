@@ -158,7 +158,7 @@ function pattern(n){
         let str = "";
         let result = "";
         let rest = "";
-        for (let j = n - i; j > 0; j--) {
+        for (let j = 5 - i; j > 0; j--) {
             str += "  ";
         }
         for (let k = i; k > 0; k--) {

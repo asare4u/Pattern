@@ -154,11 +154,11 @@
 // Assignment 8 - Stars Pattern
 
 function pattern(n){
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i <= ; i++) {
         let str = "";
         let result = "";
         let rest = "";
-        for (let j = n - i; j > 0; j--) {
+        for (let j = 5 - i; j > 0; j--) {
             str += "  ";
         }
         for (let k = i; k > 0; k--) {

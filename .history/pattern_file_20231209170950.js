@@ -153,22 +153,18 @@
 
 // Assignment 8 - Stars Pattern
 
-function pattern(n){
-    for (let i = 1; i <= n; i++) {
-        let str = "";
-        let result = "";
-        let rest = "";
-        for (let j = n - i; j > 0; j--) {
-            str += "  ";
-        }
-        for (let k = i; k > 0; k--) {
-            result += "* ";
-        }
-        for (let l = i - 1; l > 0; l--) {
-            rest += "* ";
-        }
-        console.log(str + result + rest);
-    }
-}
-
-pattern(5)
+// for (let i = 1; i <= 5; i++) {
+//     let str = "";
+//     let result = "";
+//     let rest = "";
+//     for (let j = 5 - i; j > 0; j--) {
+//         str += "  ";
+//     }
+//     for (let k = i; k > 0; k--) {
+//         result += "* ";
+//     }
+//     for (let l = i - 1; l > 0; l--) {
+//         rest += "* ";
+//     }
+//     console.log(str + result + rest);
+// }
