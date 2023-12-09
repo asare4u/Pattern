@@ -205,3 +205,21 @@
 // pattern9(5);
 
 
+
+// Assignment 10 Stars pattern
+
+// function pattern10(n){
+//     for (let i = 0; i < n; i++) {
+//         let str = "";
+//         let result = "";
+//         for (let j = (n - 1) - i; j > 0; j--) {
+//             str += " ";
+//         }
+//         for (let k = i; k >= 0; k--) {
+//             result += "* ";            
+//         }
+//         console.log(str + result);
+//     }
+// }
+
+// pattern10(7);
