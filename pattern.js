@@ -223,3 +223,6 @@
 // }
 
 // pattern10(5);
+
+
+Assignment 11 Stars pattern
