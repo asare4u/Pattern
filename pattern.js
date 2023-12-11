@@ -227,18 +227,18 @@
 
 // Assignment 11 Stars pattern
 
-function pattern11(n){
-    for (let i = 0; i < n; i++) {
-        let str = "";
-        let result = "";
-        for (let j = i; j > 0; j--) {
-            str += " ";
-        }
-        for (let k = (n - 1) - i; k >= 0; k--) {
-            result += "* ";           
-        }
-        console.log(str + result);
-    }
-}
+// function pattern11(n){
+//     for (let i = 0; i < n; i++) {
+//         let str = "";
+//         let result = "";
+//         for (let j = i; j > 0; j--) {
+//             str += " ";
+//         }
+//         for (let k = (n - 1) - i; k >= 0; k--) {
+//             result += "* ";           
+//         }
+//         console.log(str + result);
+//     }
+// }
 
-pattern11(5);
+// pattern11(5);
