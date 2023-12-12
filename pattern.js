@@ -274,7 +274,3 @@
 // }
 
 // pattern12(5);
-
-
-
-Assignment 13 Stars pattern
