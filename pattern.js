@@ -246,4 +246,8 @@
 
 
 
-Assignment 12 Stars pattern
+// Assignment 12 Stars pattern
+
+function pattern12(n) {
+    
+}
