@@ -248,6 +248,29 @@
 
 // Assignment 12 Stars pattern
 
-function pattern12(n) {
-    
+function pattern12(n){
+    for (let i = 0; i < n; i++) {
+        let str = "";
+        let result = "";
+        for (let j = i; j > 0; j--) {
+            str += " ";            
+        }
+        for (let k = (n - 1) - i; k >= 0; k--) {
+            result += "* ";            
+        }
+        console.log(str + result);
+    }
+    for (let l = 1; l <= n; l++) {
+        let a = "";
+        let b = "";
+        for (let m = (n - 1) - l; m >= 0; m--) {
+            a += " ";            
+        }
+        for (let p = l; p > 0; p--) {
+            b += "* ";            
+        }
+        console.log(a + b);
+    }
 }
+
+pattern12(5);
