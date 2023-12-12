@@ -243,3 +243,7 @@
 
 // pattern11(5);
 
+
+
+
+Assignment 12 Stars pattern
