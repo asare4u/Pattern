@@ -277,8 +277,8 @@
 
 
 
-Assignment 13 Stars pattern
+// Assignment 13 Stars pattern
 
 function pattern13(n){
-    
+
 }
