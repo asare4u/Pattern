@@ -274,3 +274,11 @@
 // }
 
 // pattern12(5);
+
+
+
+Assignment 13 Stars pattern
+
+function pattern13(n){
+    
+}
