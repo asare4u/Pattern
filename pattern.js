@@ -279,30 +279,30 @@
 
 // Assignment 13 Stars pattern
 
-function pattern13(n){
-    let remain_star = "";
-    for(let i = 0; i < (n - 1); i++){ 
-        let str = "";
-        let result = "";
-        let rest = "";
-        let star = "*";
-        for(let j = (n - 1) - i; j > 0; j--){
-            str += " ";
-        }
-        for (let k = i - 1; k >= 0; k--) {
-            result += " ";            
-        }
-        for (let l = i - 2; l >= 0; l--) {
-            result += " ";            
-        }
-        for (let m = i; m > 0; m *= 0) {
-            rest += "*";            
-        }
-        console.log(str + star + result + rest);
-    }
-    for (let x = n + (n - 1); x > 0; x--) {
-        remain_star += "*";            
-    }
-    console.log(remain_star);
-}
-pattern13(5);
+// function pattern13(n){
+//     let remain_star = "";
+//     for(let i = 0; i < (n - 1); i++){ 
+//         let str = "";
+//         let result = "";
+//         let rest = "";
+//         let star = "*";
+//         for(let j = (n - 1) - i; j > 0; j--){
+//             str += " ";
+//         }
+//         for (let k = i - 1; k >= 0; k--) {
+//             result += " ";            
+//         }
+//         for (let l = i - 2; l >= 0; l--) {
+//             result += " ";            
+//         }
+//         for (let m = i; m > 0; m *= 0) {
+//             rest += "*";            
+//         }
+//         console.log(str + star + result + rest);
+//     }
+//     for (let x = n + (n - 1); x > 0; x--) {
+//         remain_star += "*";            
+//     }
+//     console.log(remain_star);
+// }
+// pattern13(5);
