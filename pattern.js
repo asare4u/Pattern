@@ -306,3 +306,7 @@
 //     console.log(remain_star);
 // }
 // pattern13(5);
+
+
+
+Assignment 14 Stars pattern
