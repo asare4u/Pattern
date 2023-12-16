@@ -311,35 +311,35 @@
 
 // Assignment 14 Stars pattern
 
-function pattern14(n){
-    let star1 = "";
-    for (let x = n + (n - 1); x > 0; x--) {
-        star1 += "*";        
-    }
-    console.log(star1);
-    for (let i = 0; i < (n - 1); i++) {
-        let str = "";
-        let star2 = "";
-        let result = "";
-        let result1 = "";
-        let star3 = "";
-        for (let j = i; j >= 0; j--) {
-            str += " ";            
-        }
-        for (let k = 1; k > 0; k *= 0) {
-            star2 += "*";            
-        }
-        for (let l = (n - 2) - i; l > 0; l--) {
-            result += " ";            
-        }
-        for (let l = (n - 3) - i; l > 0; l--) {
-            result1 += " ";            
-        }
-        for (let k = (n - 2) - i; k > 0; k *= 0) {
-            star3 += "*";            
-        }
-        console.log(str + star2 + result + result1 + star3); 
-    }
-}
+// function pattern14(n){
+//     let star1 = "";
+//     for (let x = n + (n - 1); x > 0; x--) {
+//         star1 += "*";        
+//     }
+//     console.log(star1);
+//     for (let i = 0; i < (n - 1); i++) {
+//         let str = "";
+//         let star2 = "";
+//         let result = "";
+//         let result1 = "";
+//         let star3 = "";
+//         for (let j = i; j >= 0; j--) {
+//             str += " ";            
+//         }
+//         for (let k = 1; k > 0; k *= 0) {
+//             star2 += "*";            
+//         }
+//         for (let l = (n - 2) - i; l > 0; l--) {
+//             result += " ";            
+//         }
+//         for (let l = (n - 3) - i; l > 0; l--) {
+//             result1 += " ";            
+//         }
+//         for (let k = (n - 2) - i; k > 0; k *= 0) {
+//             star3 += "*";            
+//         }
+//         console.log(str + star2 + result + result1 + star3); 
+//     }
+// }
 
-pattern14(10);
+// pattern14(5);
