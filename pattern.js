@@ -206,7 +206,7 @@
 
 
 
-// Assignment 10 Stars pattern
+// Assignment 10 - Stars pattern
 
 // function pattern10(n){
 //     for (let i = 0; i < n; i++) {
@@ -225,7 +225,7 @@
 // pattern10(5);
 
 
-// Assignment 11 Stars pattern
+// Assignment 11 - Stars pattern
 
 // function pattern11(n){
 //     for (let i = 0; i < n; i++) {
@@ -246,7 +246,7 @@
 
 
 
-// Assignment 12 Stars pattern
+// Assignment 12 - Stars pattern
 
 // function pattern12(n){
 //     for (let i = 0; i < n; i++) {
@@ -277,7 +277,7 @@
 
 
 
-// Assignment 13 Stars pattern
+// Assignment 13 - Stars pattern
 
 // function pattern13(n){
 //     let remain_star = "";
@@ -309,7 +309,7 @@
 
 
 
-// Assignment 14 Stars pattern
+// Assignment 14 - Stars pattern
 
 // function pattern14(n){
 //     let star1 = "";
@@ -346,4 +346,4 @@
 
 
 
-// Assignment 15 Stars pattern
+// Assignment 15 - Stars pattern
