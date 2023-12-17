@@ -347,3 +347,23 @@
 
 
 // Assignment 15 - Stars pattern
+
+function pattern15(n){
+    for (let i = 0; i < round(n/2); i++) {
+        let str = "";
+        let result = "";
+        let rest = "";
+        for (let j = round(n/2) - i; j >= 0; j--) {
+            str += " ";            
+        }
+        for (let k = 0; k < 0; k++) {
+            result += "*";         
+        }
+        for (let j = 0; j < 0; j++) {
+            rest += " ";            
+        }
+        console.log(str + result + rest + result);                   
+    }
+}
+
+pattern15(5);
