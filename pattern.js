@@ -404,3 +404,9 @@
 
 
 // Assignment 16 - Stars pattern
+
+function patter16(n){
+
+}
+
+pattern16(n);
