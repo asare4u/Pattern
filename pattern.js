@@ -349,20 +349,53 @@
 // Assignment 15 - Stars pattern
 
 function pattern15(n){
-    for (let i = 0; i < round(n/2); i++) {
+    let firstHalf = Math.round(n/2);
+    let secondHalf = n - firstHalf;
+    for (let i = 0; i < firstHalf; i++) {
         let str = "";
         let result = "";
         let rest = "";
-        for (let j = round(n/2) - i; j >= 0; j--) {
+        let rest1 = "";
+        let result1 = "";
+        for (let j = (firstHalf - 1) - i; j > 0; j--) {
             str += " ";            
         }
-        for (let k = 0; k < 0; k++) {
+        for (let k = 1; k > 0; k *= 0) {
             result += "*";         
         }
-        for (let j = 0; j < 0; j++) {
+        for (let j = i; j > 0; j--) {
             rest += " ";            
         }
-        console.log(str + result + rest + result);                   
+        for (let j = i - 1; j > 0; j--) {
+            rest1 += " ";            
+        }
+        for (let k = i; k > 0; k *= 0) {
+            result1 += "*";         
+        }
+        console.log(str + result + rest + rest1 + result1);                   
+    }
+    for (let i = 1; i <= secondHalf; i++) {
+        let str = "";
+        let result = "";
+        let rest = "";
+        let rest1 = "";
+        let result1 = "";
+        for (let j = i - 1; j >= 0; j--) {
+            str += " ";            
+        }
+        for (let k = 1; k > 0; k *= 0) {
+            result += "*";         
+        }
+        for (let j = secondHalf - i; j > 0; j--) {
+            rest += " ";            
+        }
+        for (let j = (secondHalf - i) - 1; j > 0; j--) {
+            rest1 += " ";            
+        }
+        for (let k = secondHalf - i; k > 0; k *= 0) {
+            result1 += "*";         
+        }
+        console.log(str + result + rest + rest1 + result1);                   
     }
 }
 
