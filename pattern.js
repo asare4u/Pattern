@@ -411,6 +411,10 @@ function patter16(n){
     for (let i = 0; i < n; i++) {
         str += " ";        
     }
+    for (let j = 0; j < n; j++) {
+        result = "*";        
+    }
+    console.log(str + result);
 }
 
-pattern16(n);
+pattern16(5);
