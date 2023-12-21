@@ -411,6 +411,7 @@ function patter16(n){
     for (let i = 0; i < n; i++) {
         str += " ";        
     }
+    //for loop for tge pascal numbers
     for (let j = 0; j < n; j++) {
         result = "*";        
     }
