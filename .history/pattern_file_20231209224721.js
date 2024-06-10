@@ -177,7 +177,7 @@
 //     }
 // }
 
-// pattern8(5);
+// pattern8(5)
 
 
 
@@ -206,7 +206,7 @@
 
 
 
-// Assignment 10 - Stars pattern
+// Assignment 10 Stars pattern
 
 // function pattern10(n){
 //     for (let i = 0; i < n; i++) {
@@ -222,10 +222,11 @@
 //     }
 // }
 
-// pattern10(5);
+// pattern10(7);
 
 
-// Assignment 11 - Stars pattern
+
+// Assignment 11 Stars pattern
 
 // function pattern11(n){
 //     for (let i = 0; i < n; i++) {
@@ -245,8 +246,7 @@
 
 
 
-
-// Assignment 12 - Stars pattern
+// Assignment 12 Stars pattern
 
 // function pattern12(n){
 //     for (let i = 0; i < n; i++) {
@@ -273,149 +273,8 @@
 //     }
 // }
 
-// pattern12(5);
+// pattern12(7);
 
 
 
-// Assignment 13 - Stars pattern
-
-// function pattern13(n){
-//     let remain_star = "";
-//     for(let i = 0; i < (n - 1); i++){ 
-//         let str = "";
-//         let result = "";
-//         let rest = "";
-//         let star = "*";
-//         for(let j = (n - 1) - i; j > 0; j--){
-//             str += " ";
-//         }
-//         for (let k = i - 1; k >= 0; k--) {
-//             result += " ";            
-//         }
-//         for (let l = i - 2; l >= 0; l--) {
-//             result += " ";            
-//         }
-//         for (let m = i; m > 0; m *= 0) {
-//             rest += "*";            
-//         }
-//         console.log(str + star + result + rest);
-//     }
-//     for (let x = n + (n - 1); x > 0; x--) {
-//         remain_star += "*";            
-//     }
-//     console.log(remain_star);
-// }
-// pattern13(5);
-
-
-
-// Assignment 14 - Stars pattern
-
-// function pattern14(n){
-//     let star1 = "";
-//     for (let x = n + (n - 1); x > 0; x--) {
-//         star1 += "*";        
-//     }
-//     console.log(star1);
-//     for (let i = 0; i < (n - 1); i++) {
-//         let str = "";
-//         let star2 = "";
-//         let result = "";
-//         let result1 = "";
-//         let star3 = "";
-//         for (let j = i; j >= 0; j--) {
-//             str += " ";            
-//         }
-//         for (let k = 1; k > 0; k *= 0) {
-//             star2 += "*";            
-//         }
-//         for (let l = (n - 2) - i; l > 0; l--) {
-//             result += " ";            
-//         }
-//         for (let l = (n - 3) - i; l > 0; l--) {
-//             result1 += " ";            
-//         }
-//         for (let k = (n - 2) - i; k > 0; k *= 0) {
-//             star3 += "*";            
-//         }
-//         console.log(str + star2 + result + result1 + star3); 
-//     }
-// }
-
-// pattern14(5);
-
-
-
-// Assignment 15 - Stars pattern
-
-// function pattern15(n){
-//     let firstHalf = Math.round(n/2);
-//     let secondHalf = n - firstHalf;
-//     for (let i = 0; i < firstHalf; i++) {
-//         let str = "";
-//         let result = "";
-//         let rest = "";
-//         let rest1 = "";
-//         let result1 = "";
-//         for (let j = (firstHalf - 1) - i; j > 0; j--) {
-//             str += " ";            
-//         }
-//         for (let k = 1; k > 0; k *= 0) {
-//             result += "*";         
-//         }
-//         for (let j = i; j > 0; j--) {
-//             rest += " ";            
-//         }
-//         for (let j = i - 1; j > 0; j--) {
-//             rest1 += " ";            
-//         }
-//         for (let k = i; k > 0; k *= 0) {
-//             result1 += "*";         
-//         }
-//         console.log(str + result + rest + rest1 + result1);                   
-//     }
-//     for (let i = 1; i <= secondHalf; i++) {
-//         let str = "";
-//         let result = "";
-//         let rest = "";
-//         let rest1 = "";
-//         let result1 = "";
-//         for (let j = i - 1; j >= 0; j--) {
-//             str += " ";            
-//         }
-//         for (let k = 1; k > 0; k *= 0) {
-//             result += "*";         
-//         }
-//         for (let j = secondHalf - i; j > 0; j--) {
-//             rest += " ";            
-//         }
-//         for (let j = (secondHalf - i) - 1; j > 0; j--) {
-//             rest1 += " ";            
-//         }
-//         for (let k = secondHalf - i; k > 0; k *= 0) {
-//             result1 += "*";         
-//         }
-//         console.log(str + result + rest + rest1 + result1);                   
-//     }
-// }
-
-// pattern15(5);
-
-
-
-// Assignment 16 - Stars pattern
-
-function pattern16(n){
-    let str = "";
-    let result = "";
-    for (let i = 0; i < n; i++) {
-        str += " ";        
-    }
-    //for loop for the pascal numbers
-    for (let j = 0; j < n; j++) {
-        result = "*";        
-    }
-    console.log(str + result);
-}
-
-pattern16(5);
+Assignment 13 S

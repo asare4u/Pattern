@@ -405,7 +405,7 @@
 
 // Assignment 16 - Stars pattern
 
-function pattern16(n){
+function patter16(n){
     let str = "";
     let result = "";
     for (let i = 0; i < n; i++) {
