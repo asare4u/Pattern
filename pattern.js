@@ -61,28 +61,6 @@
 
 
 
-//Assignment 5 - Stars Pattern
-
-// function pattern5(n){
-//     for (let i = 0; i < n; i++) {
-//         let str = "";
-//         for (let j = i; j >= 0; j--) {
-//             str += "* ";
-//         }
-//         console.log(str);
-//     }
-//     for (let i = (n - 1); i > 0; i--) {
-//         let str = "";
-//         for (let j = 0; j < i; j++) {
-//             str += "* ";
-//         }    
-//         console.log(str);
-//     }
-// }
-
-// pattern5(5);
-
-
 //Assignment 4 - Stars Pattern 
 
 // function pattern4a(n){
@@ -114,6 +92,29 @@
 // }
 
 // pattern4b(5);
+
+
+
+//Assignment 5 - Stars Pattern
+
+// function pattern5(n){
+//     for (let i = 0; i < n; i++) {
+//         let str = "";
+//         for (let j = i; j >= 0; j--) {
+//             str += "* ";
+//         }
+//         console.log(str);
+//     }
+//     for (let i = (n - 1); i > 0; i--) {
+//         let str = "";
+//         for (let j = 0; j < i; j++) {
+//             str += "* ";
+//         }    
+//         console.log(str);
+//     }
+// }
+
+// pattern5(5);
 
 
 
