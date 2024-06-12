@@ -1,4 +1,4 @@
-# Pattern Questions from @kunal-kushwaha.
+## Pattern Questions from @kunal-kushwaha.
 
 Print these patterns using loops:
 
