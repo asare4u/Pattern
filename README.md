@@ -1,5 +1,5 @@
 <div align="center">
-   ## Pattern Questions from @kunal-kushwaha.
+   <h1>Pattern Questions from @kunal-kushwaha.</h1>
 </div>
 
 Print these patterns using loops:
