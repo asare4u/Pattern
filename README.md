@@ -1,4 +1,6 @@
-## Pattern Questions from @kunal-kushwaha.
+<div align="center">
+   ## Pattern Questions from @kunal-kushwaha.
+</div>
 
 Print these patterns using loops:
 
