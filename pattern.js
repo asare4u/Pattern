@@ -122,8 +122,7 @@
 
 // function pattern6(n){
 //     for (let i = 0; i < n; i++) {
-//         let str = "";
-//         let result = "";
+//         let str = "", result = "";
 //         for (let j = (n - 1) - i; j > 0; j--) {
 //             str += "  ";
 //         }
@@ -142,7 +141,7 @@
 
 // function pattern7(n){
 //     for (let i = 0; i < n; i++) {
-//         let str = "";
+//         let str = "", result = "";
 //         let result = "";
 //         for (let j = i - 1; j >= 0; j--) {
 //             str += "  ";
@@ -162,9 +161,7 @@
 
 // function pattern8(n){
 //     for (let i = 1; i <= n; i++) {
-//         let str = "";
-//         let result = "";
-//         let rest = "";
+//         let str = "", result = "", rest = "";
 //         for (let j = n - i; j > 0; j--) {
 //             str += "  ";
 //         }
@@ -186,9 +183,7 @@
 
 // function pattern9(n){
 //     for (let i = 0; i < n; i++) {
-//         let str = "";
-//         let result = "";
-//         let rest = "";
+//         let str = "", result = "", rest = "";
 //         for (let j = i - 1; j >= 0; j--) {
 //             str += "  ";        
 //         }
@@ -211,8 +206,7 @@
 
 // function pattern10(n){
 //     for (let i = 0; i < n; i++) {
-//         let str = "";
-//         let result = "";
+//         let str = "", result = "";
 //         for (let j = (n - 1) - i; j > 0; j--) {
 //             str += " ";
 //         }
@@ -230,8 +224,7 @@
 
 // function pattern11(n){
 //     for (let i = 0; i < n; i++) {
-//         let str = "";
-//         let result = "";
+//         let str = "", result = "";
 //         for (let j = i; j > 0; j--) {
 //             str += " ";
 //         }
@@ -251,8 +244,8 @@
 
 // function pattern12(n){
 //     for (let i = 0; i < n; i++) {
-//         let str = "";
-//         let result = "";
+//         let str = "", result = "";
+//         let ;
 //         for (let j = i; j > 0; j--) {
 //             str += " ";            
 //         }
@@ -283,10 +276,7 @@
 // function pattern13(n){
 //     let remain_star = "";
 //     for(let i = 0; i < (n - 1); i++){ 
-//         let str = "";
-//         let result = "";
-//         let rest = "";
-//         let star = "*";
+//         let str = "", result = "", rest = "", star = "*";
 //         for(let j = (n - 1) - i; j > 0; j--){
 //             str += " ";
 //         }
@@ -319,11 +309,7 @@
 //     }
 //     console.log(star1);
 //     for (let i = 0; i < (n - 1); i++) {
-//         let str = "";
-//         let star2 = "";
-//         let result = "";
-//         let result1 = "";
-//         let star3 = "";
+//         let str = "", star2 = "", result = "", result1 = "", star3 = "";
 //         for (let j = i; j >= 0; j--) {
 //             str += " ";            
 //         }
@@ -353,11 +339,7 @@
 //     let firstHalf = Math.round(n/2);
 //     let secondHalf = n - firstHalf;
 //     for (let i = 0; i < firstHalf; i++) {
-//         let str = "";
-//         let result = "";
-//         let rest = "";
-//         let rest1 = "";
-//         let result1 = "";
+//         let str = "", result = "", rest = "", rest1 = "", result1 = "";
 //         for (let j = (firstHalf - 1) - i; j > 0; j--) {
 //             str += " ";            
 //         }
@@ -376,11 +358,7 @@
 //         console.log(str + result + rest + rest1 + result1);                   
 //     }
 //     for (let i = 1; i <= secondHalf; i++) {
-//         let str = "";
-//         let result = "";
-//         let rest = "";
-//         let rest1 = "";
-//         let result1 = "";
+//         let str = "", result = "", rest = "", rest1 = "", result1 = "";
 //         for (let j = i - 1; j >= 0; j--) {
 //             str += " ";            
 //         }
